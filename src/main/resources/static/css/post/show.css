@@ -1,0 +1,211 @@
+.col-md-12 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.navbar-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.active {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+}
+
+li {
+    margin: 3px;
+}
+
+.black-component {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+}
+
+.black-component:hover {
+    background-color: #ffcd00;
+    color: black;
+}
+
+.navbar-right {
+    display: flex;
+}
+
+.container {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.article-doc {
+    line-height: 30px;
+}
+
+.post-title {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.comment {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid lightgray;
+}
+
+.article-header-text {
+    color: gray;
+    display: inline-flex;
+}
+
+.article-header-button {
+    display: inline-flex;
+}
+
+.article-button {
+    width: 80px;
+    height: 40px;
+    margin: 0 10px;
+    background: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer; /* 마우스 커서를 손가락 모양으로 변경 */
+}
+
+.delete-btn-color {
+    background-color: #ff0000; /* 커서가 올라갔을 때 바뀔 색상 */
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn-color:hover {
+    background-color: #8d192b;
+}
+
+.adjust-btn-color {
+    background-color: greenyellow;
+    transition: background-color 0.3s ease;
+}
+
+.adjust-btn-color:hover {
+    background-color: forestgreen;
+}
+
+
+.article-content {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.article-header {
+    margin-bottom: 50px;
+}
+
+.post-comment {
+    margin-top: 60px;
+}
+
+.post-comment-count {
+    margin-bottom: 30px;
+}
+
+.comment-author-name {
+    font-weight: bold;
+}
+
+.comment-time {
+    color: lightgray;
+}
+
+.comment-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article-content-header {
+    display: flex;
+    align-items: center;
+}
+
+.reply-btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer; /* 마우스 커서를 손가락 모양으로 변경 */
+    padding: 5px;
+}
+
+
+.post-write-btn {
+    margin-top: 20px;
+    align-items: center;
+    align-self: end;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 60px;
+    height: 30px;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+.post-btn-container {
+    display: flex;
+    justify-content: end;
+}
+
+.post-write-btn:hover {
+    background-color: #ffcd00;
+    color: black;
+}
+
+.form-group {
+    padding: 0px;
+}
+
+.form-control {
+    margin: 0px;
+    padding: 3%;
+    width: 90%;
+    height: 50px;
+    border: none;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+.comment-writer {
+    font-weight: bold;
+    margin: 20px;
+    border: none;
+}
+
+.comment-writer:focus {
+    outline: none;
+}
+
+.submit-write {
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}

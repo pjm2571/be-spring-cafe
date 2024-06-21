@@ -1,0 +1,6 @@
+{{ ^sessionedUser }}
+    {{ > base/navBarShowLogin}}
+{{/sessionedUser}}
+{{#sessionedUser}}
+    {{ > base/navBarShowLogout}}
+{{/sessionedUser}}
